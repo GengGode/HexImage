@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
-
+#include <opencv2/opencv.hpp>
+#include "HexMat.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	cv::Mat img=cv::imread(".\\res\\test.jpg");
+
+	cv::imshow("NewImage", img);
+
+	HexMat h(img);
+
+	cv::waitKey(0);
+	
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

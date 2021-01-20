@@ -18,5 +18,13 @@
     <ClCompile Include="HexImage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HexMat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HexMat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
